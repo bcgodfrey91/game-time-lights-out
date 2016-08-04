@@ -19,7 +19,7 @@ h1 {
   animation: pulse .25s linear;
   animation-delay: 1s;
   animation-duration: 3s;
-  animation-name: pulse;
+  /*animation-name: pulse;     << redundant */  
   animation-iteration-count: infinite;
   opacity: 1;
 }
