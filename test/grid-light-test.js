@@ -27,15 +27,18 @@ describe('Grid in relation to the Light', function() {
 describe('Creating a new game within the grid', function() {
 
   it('should have a function that creates a new game', function() {
-    var grid = new Grid(0);
+    var grid = new Grid(1);
 
     assert.isFunction(grid.createGame);
 
     grid.createGame();
 
+
     assert.deepEqual(grid.game.validGames);
-    assert.equal(grid.game[0][0].state, true);
+    assert.equal(grid.game[0][0].state, false);
     assert.equal(grid.game[0][1].state, false);
+    assert.equal(grid.game[0][4].state, true);
+
   });
 
   it('should have the ability to change the state of the light', function() {
@@ -45,7 +48,7 @@ describe('Creating a new game within the grid', function() {
 
     assert.equal(grid.game[4][4].state, false);
 
-    grid.changeLightState(25);
+    grid.changeLightState(24);
 
     assert.equal(grid.game[4][4].state, true);
   });

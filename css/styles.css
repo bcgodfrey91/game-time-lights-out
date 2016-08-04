@@ -10,7 +10,7 @@ body {
 
 h1 {
   color: #05c2d1;
-  font-family: 'Neon', cursive;
+  font-family: 'Neon', 'Monoton', cursive;
   font-size: 50px;
   margin: 0;
 }
@@ -139,15 +139,15 @@ h1 {
 }
 
 .grid td {
-  border: 3px solid #87BBE8;
+  border: 5px solid grey;
   height: 80px;
   width: 80px;
 }
 
 .grid td:hover {
   cursor: pointer;
-  border-bottom: 3px solid magenta;
-  border-right: 3px solid magenta;
+  border-bottom: 5px solid magenta;
+  border-right: 5px solid magenta;
 }
 
 #true {
