@@ -19,7 +19,7 @@ Secondly, in a minimal solution, each light needs to be pressed no more than onc
 
 #### Play Lights Out
 
-Have fun!: https://bcgodfrey91.github.io/game-time-lights-out/
+Have fun: https://bcgodfrey91.github.io/game-time-lights-out/
 
 ---
 
